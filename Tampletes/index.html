@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FonoVida</title>
+  <link rel="stylesheet" href="/static/Style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <section id="lesson">
+    <h2 id="titulo"></h2>
+
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <p>Repita a palavra:</p>
+    <h3 id="palavra"></h3>
+
+    <button onclick="iniciarVoz()">🎤 Falar</button>
+
+    <p id="resultado"></p>
+    <button onclick="resetar()">🔄 Reiniciar</button>
+  </section>
+
+</div>
+
+<script src="/static/Script.js"></script>
+</body>
+</html>
